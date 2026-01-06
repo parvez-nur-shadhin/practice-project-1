@@ -20,7 +20,7 @@
 /* Main Styles */
 header {
     text-align: right;
-    background: url(/images/banner1.png);
+    background: url(../images/banner/banner1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -118,7 +118,7 @@ header {
 #banner {
     max-width: 1140px;
     margin: 0px auto;
-    background: url(/images/gradient2.png), url(/images/watch.png);  
+    background: url(../images/gradient2.png), url(../images/watch.png);  
     background-repeat: no-repeat;
     margin-top: 132px;
 }
