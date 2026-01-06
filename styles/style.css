@@ -1,0 +1,226 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.open-sans-work {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+}
+
+.btn {
+    color: white;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 25px;
+    margin-top: 32px;
+}
+
+/* Main Styles */
+header {
+    text-align: right;
+    background: url(/images/banner/banner1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#heading {
+    padding: 216px 230px 364px 845px;
+}
+
+#heading h1 {
+    font-size: 65px;
+    font-weight: bold;
+}
+
+#heading p {
+    margin-top: 24px;
+    font-size: 16px;
+    color: #444343;
+}
+
+#failures {
+    display: flex;
+    justify-content:space-around;
+    max-width: 1072px;
+    margin: 0px auto;
+    margin-top: 130px;
+}
+#failures .failure-image img {
+    height: 723px;
+    width: 569px;
+    display: block;
+    align-items: center;
+}
+#failures .failure-text {
+    margin:240px 0px 84px 87px;
+}
+#failures .failure-text h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    max-width: 288px;
+}
+#failures .failure-text p {
+    margin-top: 24px;
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+}
+#failures .failure-text .failure-list {
+    list-style-type:none;
+    margin-top: 16px;
+}
+#failures .failure-text .failure-list .f-list-item {
+    font-size: 16;
+    color: #444343;
+    line-height: 26px;
+}
+#my-plans {
+    max-width: 1141px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 71px;
+}
+#my-plans .heading-section .h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+#my-plans .plan-divs {
+    display: flex;
+    gap: 86px;
+    justify-content: center;
+    margin-top: 55px;
+}
+#my-plans .plan-divs .plan-card {
+    text-align: center;
+}
+#my-plans .plan-divs .plan-card .plan-image {
+   height: 93px;
+   width: 93px;
+   display: block;
+   margin: 0 auto;
+}
+#my-plans .plan-divs .plan-card .plan-body h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #151414;
+}
+#my-plans .plan-divs .plan-card .plan-body h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+    margin-top: 16px;
+}
+
+#banner {
+    max-width: 1140px;
+    margin: 0px auto;
+    background: url(/images/gradient2.png), url(/images/watch.png);  
+    background-repeat: no-repeat;
+    margin-top: 132px;
+}
+
+#banner .banner-element {
+    padding: 59px 617px 147px 64px;
+}
+#banner .banner-element h1 {
+    font-size: 40;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#banner .banner-element button {
+    font-size: 20px;
+    font-weight: 600px;
+    color: #F15B22;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 21px 36px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+footer {
+    margin-top: 130px;
+    background-color: #151414;
+    display: flex;
+    justify-content: space-between;
+    padding: 230px 130px;
+}
+footer .future {
+    max-width: 485px;
+}
+footer .future .foot-left-heading h1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #F8F8F8;
+}
+footer .future .foot-left-heading p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+footer .future .foot-left-heading ul {
+    list-style-type: none;
+    font-size: 16px;
+    margin-top: 24px;
+    color: #FFFFFF;
+}
+footer .future .foot-left-heading ul li {
+    line-height: 16px;
+    margin-bottom: 16px;
+}
+footer .future .social-icons {
+    display: flex;
+    gap: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+footer .future .social-icons img {
+    height: 46px;
+    width: 46px;
+}
+footer .form {
+    max-width: 325px;
+}
+footer .form h2 {
+    font-size: 25px;
+    font-weight: 600px;
+    color: #FFFFFF;
+}
+footer .form form {
+    margin-top: 25px;
+}
+footer .form form input[type="email"] {
+    border: 1px white solid;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 325px;
+    height: 64px;
+    color: #F3F3F3;
+}
+footer .form form input[type="email"]::placeholder {
+    font-size: 18px;
+    color: #F3F3F3;
+    padding-left: 21px;
+}
+footer .form form input[type="button"] {
+    border: none;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600px;
+    background-color: #FFFFFF;
+    height: 64px;
+    width: 170px;
+    border-radius: 5px;
+    margin-top: 16px;
+}
+footer .form form input[type="button"]::placeholder {
+    color: F15B22;
+   
+}
